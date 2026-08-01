@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="@color/purple_primary"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0"/>
+    
+    <!-- Sudoku grid icon -->
+    <path
+        android:fillColor="@color/text_white"
+        android:pathData="M30,30 L78,30 L78,78 L30,78 Z"
+        android:strokeWidth="3"
+        android:strokeColor="@color/text_white"/>
+    
+    <path
+        android:strokeColor="@color/text_white"
+        android:strokeWidth="2"
+        android:pathData="M30,46 L78,46 M30,62 L78,62 M46,30 L46,78 M62,30 L62,78"/>
+    
+    <path
+        android:strokeColor="@color/teal_accent"
+        android:strokeWidth="4"
+        android:pathData="M30,30 L78,30 L78,78 L30,78 Z M30,46 L78,46 M30,62 L78,62 M46,30 L46,78 M62,30 L62,78"/>
+</vector>
